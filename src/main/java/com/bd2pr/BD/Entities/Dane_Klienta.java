@@ -14,7 +14,7 @@ public class Dane_Klienta {
 
     @Column(name = "Adres zamieszkania ID")
     private Long adres_Zamieszkania_Id;
-    
+
 
     public Long getKlient_Id() {
         return klient_Id;
