@@ -27,7 +27,7 @@ public class Osoba {
     public Osoba() {
     }
 
-    public Osoba(String imie, String nazwisko, double numer_Telefonu, String login, String haslo) {
+    public void Osobaseteverything(String imie, String nazwisko,double numer_Telefonu, String login, String haslo) {
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.numer_Telefonu = numer_Telefonu;
