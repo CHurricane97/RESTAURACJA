@@ -22,6 +22,16 @@ public class Grafik {
     @Column(name = "Zmiana")
     private Boolean zmiana;
 
+    public Grafik() {
+    }
+
+    public Grafik(Long dane_Pracownika_Id, Date data_Rozpoczecia, Date data_Zakonczenia, Boolean zmiana) {
+        this.dane_Pracownika_Id = dane_Pracownika_Id;
+        this.data_Rozpoczecia = data_Rozpoczecia;
+        this.data_Zakonczenia = data_Zakonczenia;
+        this.zmiana = zmiana;
+    }
+
     public Long getGrafik_Id() {
         return grafik_Id;
     }

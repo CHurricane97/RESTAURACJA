@@ -15,6 +15,14 @@ public class Skladnik_Menu {
     @Column(name = "Menu ID")
     private Long menu_Id;
 
+    public Skladnik_Menu() {
+    }
+
+    public Skladnik_Menu(Long skladnik_Id, Long menu_Id) {
+        this.skladnik_Id = skladnik_Id;
+        this.menu_Id = menu_Id;
+    }
+
     public Long getId() {
         return id;
     }

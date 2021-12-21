@@ -15,6 +15,14 @@ public class Stolik {
     @Column(name = "Ilosc miejsc")
     private Long ilosc_Miejsc;
 
+    public Stolik() {
+    }
+
+    public Stolik(String status, Long ilosc_Miejsc) {
+        this.status = status;
+        this.ilosc_Miejsc = ilosc_Miejsc;
+    }
+
     public Long getStolik_Id() {
         return stolik_Id;
     }

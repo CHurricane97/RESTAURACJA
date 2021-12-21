@@ -31,6 +31,19 @@ public class Zamowienie_Od_Klienta {
     @Column(name = "Opis")
     private String opis;
 
+    public Zamowienie_Od_Klienta() {
+    }
+
+    public Zamowienie_Od_Klienta(Long menu_Id, Long stolik_Id, Long klient_Id, Date data, Boolean na_Miejscu, String status, String opis) {
+        this.menu_Id = menu_Id;
+        this.stolik_Id = stolik_Id;
+        this.klient_Id = klient_Id;
+        this.data = data;
+        this.na_Miejscu = na_Miejscu;
+        this.status = status;
+        this.opis = opis;
+    }
+
     public Long getZamowienie_Klienta_Id() {
         return zamowienie_Klienta_Id;
     }

@@ -15,6 +15,14 @@ public class Pozycja_w_menu {
     @Column(name = "Cena")
     private Long cena;
 
+    public Pozycja_w_menu() {
+    }
+
+    public Pozycja_w_menu(String nazwa, Long cena) {
+        this.nazwa = nazwa;
+        this.cena = cena;
+    }
+
     public Long getMenu_Id() {
         return menu_Id;
     }

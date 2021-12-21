@@ -5,6 +5,9 @@ import javax.persistence.*;
 @Entity
 @Table(name = "Adres zamieszkania")
 public class Adres_Zamieszkania {
+
+
+
     @Id
     @Column(name = "Adres ID")
     private Long adres_Id;
@@ -29,6 +32,19 @@ public class Adres_Zamieszkania {
 
     @Column(name = "Kod pocztowy")
     private String kod_Pocztowy;
+
+    public Adres_Zamieszkania() {
+    }
+
+    public Adres_Zamieszkania(String wojewodztwo, String kraj, String miasto, String ulica, Long numer_Domu, Long numer_Lokalu, String kod_Pocztowy) {
+        this.wojewodztwo = wojewodztwo;
+        this.kraj = kraj;
+        this.miasto = miasto;
+        this.ulica = ulica;
+        this.numer_Domu = numer_Domu;
+        this.numer_Lokalu = numer_Lokalu;
+        this.kod_Pocztowy = kod_Pocztowy;
+    }
 
     public Long getAdres_Id() {
         return this.adres_Id;

@@ -22,6 +22,16 @@ public class Rezerwacja {
     @Column(name = "Data rezerwacji")
     private java.sql.Date data_Rezerwacji;
 
+    public Rezerwacja() {
+    }
+
+    public Rezerwacja(Long stolik_Id, Long klient_Id, Date data_Utworzenia, Date data_Rezerwacji) {
+        this.stolik_Id = stolik_Id;
+        this.klient_Id = klient_Id;
+        this.data_Utworzenia = data_Utworzenia;
+        this.data_Rezerwacji = data_Rezerwacji;
+    }
+
     public Long getRezerwacja_Id() {
         return rezerwacja_Id;
     }

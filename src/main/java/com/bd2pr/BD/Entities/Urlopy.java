@@ -22,6 +22,16 @@ public class Urlopy {
     @Column(name = "Status")
     private String status;
 
+    public Urlopy() {
+    }
+
+    public Urlopy(Long dane_Pracownika_Id, Date data_Rozpoczecia, Date data_Zakonczenia, String status) {
+        this.dane_Pracownika_Id = dane_Pracownika_Id;
+        this.data_Rozpoczecia = data_Rozpoczecia;
+        this.data_Zakonczenia = data_Zakonczenia;
+        this.status = status;
+    }
+
     public Long getUrlop_Id() {
         return urlop_Id;
     }
