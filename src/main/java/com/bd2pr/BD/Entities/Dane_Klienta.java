@@ -18,10 +18,7 @@ public class Dane_Klienta {
     public Dane_Klienta() {
     }
 
-    public Dane_Klienta(Long osoba_Id, Long adres_Zamieszkania_Id) {
-        this.osoba_Id = osoba_Id;
-        this.adres_Zamieszkania_Id = adres_Zamieszkania_Id;
-    }
+
 
     public Long getKlient_Id() {
         return klient_Id;

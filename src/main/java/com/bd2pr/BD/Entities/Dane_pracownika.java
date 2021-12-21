@@ -25,12 +25,8 @@ public class Dane_pracownika {
     public Dane_pracownika() {
     }
 
-    public Dane_pracownika(Long osoba_Id, double pesel, String stanowisko, Date data_Zatrudnienia) {
-        this.osoba_Id = osoba_Id;
-        this.pesel = pesel;
-        this.stanowisko = stanowisko;
-        this.data_Zatrudnienia = data_Zatrudnienia;
-    }
+
+
 
     public Long getDane_Pracownika_Id() {
         return this.dane_Pracownika_Id;

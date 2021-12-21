@@ -22,11 +22,7 @@ public class Zamowienie_Do_Hurtowni {
     public Zamowienie_Do_Hurtowni() {
     }
 
-    public Zamowienie_Do_Hurtowni(Long skladnik_Id, Long ilosc, Date data) {
-        this.skladnik_Id = skladnik_Id;
-        this.ilosc = ilosc;
-        this.data = data;
-    }
+
 
     public Long getZamowienie_Do_Hurtowni_Id() {
         return zamowienie_Do_Hurtowni_Id;

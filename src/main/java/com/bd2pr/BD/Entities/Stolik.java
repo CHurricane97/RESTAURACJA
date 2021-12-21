@@ -18,10 +18,7 @@ public class Stolik {
     public Stolik() {
     }
 
-    public Stolik(String status, Long ilosc_Miejsc) {
-        this.status = status;
-        this.ilosc_Miejsc = ilosc_Miejsc;
-    }
+
 
     public Long getStolik_Id() {
         return stolik_Id;

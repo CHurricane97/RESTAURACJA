@@ -15,9 +15,7 @@ public class Skladnik {
     public Skladnik() {
     }
 
-    public Skladnik(String nazwa) {
-        this.nazwa = nazwa;
-    }
+
 
     public Long getSkladnik_Id() {
         return this.skladnik_Id;

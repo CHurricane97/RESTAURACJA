@@ -30,13 +30,7 @@ public class Osoba {
     public Osoba() {
     }
 
-    public void Osobaseteverything(String imie, String nazwisko,double numer_Telefonu, String login, String haslo) {
-        this.imie = imie;
-        this.nazwisko = nazwisko;
-        this.numer_Telefonu = numer_Telefonu;
-        this.login = login;
-        this.haslo = haslo;
-    }
+
 
     public Long getOsoba_Id() {
         return this.osoba_Id;
